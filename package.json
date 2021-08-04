@@ -1,0 +1,21 @@
+{
+  "name": "ejercicios-lab",
+  "version": "1.0.0",
+  "description": "Ejercicios tecnicos",
+  "main": "tecnicos.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carfolacam98/Ejercicios-Lab.git"
+  },
+  "author": "Laura Cardenas",
+  "license": "ISC",
+  
+  "bugs": {
+    "url": "https://github.com/carfolacam98/Ejercicios-Lab/issues"
+  },
+  "homepage": "https://github.com/carfolacam98/Ejercicios-Lab#readme"
+}
