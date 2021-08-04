@@ -4,14 +4,13 @@ const duplicateValues = function(inputArray) {
   return newArray
 }
 
-duplicateValues([1,2,3,4,5]);
+
 const filterPeople = function(inputPeople) {
   
 const OutputFlt= condicion=> condicion.age>18 && condicion.skills=="Frontend" 
   return inputPeople.filter(OutputFlt)
 }
 
-filterPeople([{ name: 'Adrian Zelada', age: 25, skills: 'Frontend'}, { name: 'Maria Luisa', age: 33, skills: 'Backend'}, { name: 'Elon Musk', age: 20, skills: 'Software Architect'}]);
 
 
 
@@ -31,7 +30,7 @@ var isPalindrome = function(x) {
     
 };
 
-console.log(isPalindrome('pizara'));
+;
 
 var countNumbers = function(x) {
     const tuple={};
@@ -50,4 +49,10 @@ var countNumbers = function(x) {
     return template.join()
 };
 
-countNumbers([1, 2, 8, 2, 9, 10, 5, 8, 1, 2]);
+;
+
+module.exports={
+    duplicateValues,
+    countNumbers,isPalindrome,filterPeople
+   
+};
